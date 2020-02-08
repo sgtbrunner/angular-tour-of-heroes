@@ -1,4 +1,10 @@
 <h1> {{ title }} </h1>
+<nav>
+    <div class="navbar-container">
+        <a routerLink="/dashboard">Dashboard</a>
+        <a routerLink="/heroes">Heroes</a>
+    </div>
+</nav>
 
-<app-heroes></app-heroes>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
